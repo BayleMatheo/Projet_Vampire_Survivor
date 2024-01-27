@@ -1,13 +1,13 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ChunkTrigger : MonoBehaviour
 {
-    private MapController mc;
-    public GameObject targerMap;
-    
+    MapController mc;
+
+    public GameObject targetMap;
+
     void Start()
     {
         mc = FindObjectOfType<MapController>();
@@ -17,7 +17,7 @@ public class ChunkTrigger : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            mc.currentChunk = targerMap;
+            mc.currentChunk = targetMap;
         }
     }
 
@@ -25,7 +25,7 @@ public class ChunkTrigger : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            if (mc.currentChunk == targerMap)
+            if (mc.currentChunk == targetMap)
             {
                 mc.currentChunk = null;
             }

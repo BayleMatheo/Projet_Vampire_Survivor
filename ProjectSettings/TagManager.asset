@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ennemy
+  - Enemy
   - Prop
   layers:
   - Default
@@ -43,12 +43,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: BackGround
-    uniqueID: 2871022343
+  - name: Background
+    uniqueID: 1641007203
     locked: 0
-  - name: MidGround
-    uniqueID: 2839703393
+  - name: Midground
+    uniqueID: 3736797759
     locked: 0
-  - name: ForeGround
-    uniqueID: 3213098163
+  - name: Foreground
+    uniqueID: 3612015901
     locked: 0

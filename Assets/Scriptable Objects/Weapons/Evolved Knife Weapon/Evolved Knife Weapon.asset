@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb9463376b88b04b903bc923e0cf058, type: 3}
+  m_Name: Evolved Knife Weapon
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5814258688262570071, guid: 92c11f5c630647f4b9db41ec357f3ff8, type: 3}
+  damage: 10
+  speed: 15
+  cooldownDuration: 3
+  pierce: 2
+  level: 0
+  nextLevelPrefab: {fileID: 0}
+  name: 
+  description: 
+  icon: {fileID: 2322474491237613556, guid: 9a4fc81d095024a48880d86a3c54f2b7, type: 3}
+  isEvolved: 0
+  evolvedUpgradeToRemove: 0
